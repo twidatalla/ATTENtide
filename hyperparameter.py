@@ -21,7 +21,7 @@ class hyperparameter():
         self.weight_decay = 1e-4
         self.embed_dim = 64
 
-        self.protein_kernel = [4, 8, 12]
-        self.drug_kernel = [4, 6, 8]
+        self.MHC_kernel = [4, 8, 12]
+        self.peptide_kernel = [4, 6, 8]
         self.conv = 40
         self.char_dim = 64
